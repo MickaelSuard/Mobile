@@ -7,6 +7,8 @@
 
     <!-- Page de collection -->
     <string name="collection_page_title">Ma collection</string>
+    <string name="item_paysage_name">Paysage</string>
+    <string name="item_paysage_description">Description</string>
 
     <!-- Page d'ajout'-->
     <string name="add_page_title">Ajout d\'un paysage</string>
