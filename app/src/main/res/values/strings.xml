@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Nature Collection</string>
+
+    <!-- Page d'accueil -->
+    <string name="home_page_title">A découvrir</string>
+    <string name="home_page_last_plant_section">Dernières plantes</string>
+
+    <!-- Page de collection -->
+    <string name="collection_page_title">Ma collection</string>
+
+    <!-- Page d'ajout'-->
+    <string name="add_page_title">Ajout d\'un paysage</string>
+    <string name="add_page_upload_button">Charger Image</string>
+    <string name="add_page_name_input">@string/home_page_last_plant_name</string>
+    <string name="add_page_description_input">@string/home_page_last_plant_description</string>
+
+    <string-array name="add_page_continent_spinner_input">
+        <item> Afrique</item>
+        <item> Amérique</item>
+        <item> Antarctique</item>
+        <item> Asie</item>
+        <item> Europe</item>
+        <item> Océanie</item>
+    </string-array>
+
+    <string name="add_page_ville_input">Ville</string>
+    <string name="add_page_confirm_button">Confirmer</string>
+
+    <!-- Fenêtre popup de details'-->
+    <string name="popup_name">Plant Name</string>
+    <string name="popup_description_title">Description</string>
+    <string name="popup_description_subtitle">Petite description</string>
+
+    <string name="popup_continent_title">Continent</string>
+    <string name="popup_continent_subtitle">Europe</string>
+
+    <string name="popup_ville_title">Ville</string>
+    <string name="popup_ville_subtitle">Paris</string>
+
+
+
+
+    <!-- Paysage custom -->
+    <string name="home_page_last_plant_name">Nom du paysage</string>
+    <string name="home_page_last_plant_description">Description de la plante</string>
+</resources>
