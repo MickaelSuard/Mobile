@@ -12,6 +12,9 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="android:spinnerItemStyle">@style/DefaultTextStyle</item>
+        <item name="android:spinnerDropDownItemStyle">@style/DefaultTextStyle</item>
     </style>
 
     <!-- Créer composant pour le titre par défaut  -->
@@ -22,13 +25,19 @@
     </style>
 
     <!-- Créer composant pour le sous titre par défaut  -->
-    <style name="SubtitleTextStyle">
+    <style name="SubtitleTextStyle" parent="DefaultTextStyle">
         <item name="android:textColor">@color/darkGray</item>
     </style>
 
     <!-- Créer composant pour le titre par défaut  -->
     <style name="TitleTextStyle" parent="SubtitleTextStyle">
         <item name="android:textSize">24sp</item>
+    </style>
+
+    // creer style pour le menu
+    <style name="bottomNavigationTheme" parent="Widget.Design.BottomNavigationView">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/kanit</item>
     </style>
 
 </resources>

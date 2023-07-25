@@ -1,9 +1,13 @@
 <resources>
-    <string name="app_name">Nature Collection</string>
+    <string name="app_name">Collection de voiture</string>
+
+    <string name="bottom_home_item">Accueil</string>
+    <string name="bottom_collection_item">Collection</string>
+    <string name="bottom_add_item">Ajouter</string>
 
     <!-- Page d'accueil -->
     <string name="home_page_title">A découvrir</string>
-    <string name="home_page_last_plant_section">Dernières plantes</string>
+    <string name="home_page_last_plant_section"> Les dernières voitures</string>
 
     <!-- Page de collection -->
     <string name="collection_page_title">Ma collection</string>
@@ -11,7 +15,7 @@
     <string name="item_paysage_description">Description</string>
 
     <!-- Page d'ajout'-->
-    <string name="add_page_title">Ajout d\'un paysage</string>
+    <string name="add_page_title">Ajout d\'une voiture</string>
     <string name="add_page_upload_button">Charger Image</string>
     <string name="add_page_name_input">@string/home_page_last_plant_name</string>
     <string name="add_page_description_input">@string/home_page_last_plant_description</string>
@@ -25,7 +29,7 @@
         <item> Océanie</item>
     </string-array>
 
-    <string name="add_page_ville_input">Ville</string>
+    <string name="add_page_marque_input">Marque</string>
     <string name="add_page_confirm_button">Confirmer</string>
 
     <!-- Fenêtre popup de details'-->
@@ -36,13 +40,13 @@
     <string name="popup_continent_title">Continent</string>
     <string name="popup_continent_subtitle">Europe</string>
 
-    <string name="popup_ville_title">Ville</string>
-    <string name="popup_ville_subtitle">Paris</string>
+    <string name="popup_marque_title">Marque</string>
+    <string name="popup_marque_subtitle">Porsche</string>
 
 
 
 
     <!-- Paysage custom -->
     <string name="home_page_last_plant_name">Nom du paysage</string>
-    <string name="home_page_last_plant_description">Description de la plante</string>
+    <string name="home_page_last_plant_description">Description </string>
 </resources>
